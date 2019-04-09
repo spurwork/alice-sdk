@@ -46,7 +46,7 @@ use Swagger\Client\ObjectSerializer;
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
-class PayrollApi
+class Alice
 {
     /**
      * @var ClientInterface
