@@ -87,7 +87,7 @@ $apiInstance = new Swagger\Client\Api\PayrollApi(
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$company_id = 56; // int | 
+$company_id = 56; // int |
 
 try {
     $result = $apiInstance->getV1PayrollCompaniesCompanyId($company_id);
@@ -133,7 +133,7 @@ $apiInstance = new Swagger\Client\Api\PayrollApi(
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$id = 56; // int | 
+$id = 56; // int |
 
 try {
     $result = $apiInstance->getV1PayrollPayPeriodsId($id);
@@ -147,8 +147,8 @@ $apiInstance = new Swagger\Client\Api\PayrollApi(
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$company_id = 56; // int | 
-$employee_id = 56; // int | 
+$company_id = 56; // int |
+$employee_id = 56; // int |
 
 try {
     $apiInstance->postV1PayrollCompaniesCompanyIdEmployeesEmployeeIdSessions($company_id, $employee_id);
@@ -161,7 +161,7 @@ $apiInstance = new Swagger\Client\Api\PayrollApi(
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$company_id = 56; // int | 
+$company_id = 56; // int |
 
 try {
     $apiInstance->postV1PayrollCompaniesCompanyIdSessions($company_id);
@@ -174,7 +174,7 @@ $apiInstance = new Swagger\Client\Api\PayrollApi(
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \Swagger\Client\Model\null(); //  | 
+$body = new \Swagger\Client\Model\null(); //  |
 
 try {
     $apiInstance->postV1PayrollCompaniesOauthSignup($body);
@@ -187,7 +187,7 @@ $apiInstance = new Swagger\Client\Api\PayrollApi(
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \Swagger\Client\Model\null(); //  | 
+$body = new \Swagger\Client\Model\null(); //  |
 
 try {
     $apiInstance->postV1PayrollEvents($body);
